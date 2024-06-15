@@ -1,6 +1,3 @@
-Creating a `README.md` file for your Python Flask project is essential for providing information about the project, how to set it up, and other relevant details. Here’s a structured `README.md` template for the Vanessa Curdles Care Foundation website:
-
-```markdown
 # Vanessa Curdles Care Foundation Website
 
 This repository contains the code for the Vanessa Curdles Care Foundation website, built using Python and Flask.
