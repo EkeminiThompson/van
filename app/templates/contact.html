@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Contact Us - Vanessa Curdles Care Foundation{% endblock %}
+
+{% block content %}
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Contact Us</h2>
+                <p>Have any questions or suggestions? Feel free to get in touch with us using the contact form below.</p>
+
+                <!-- Contact Form -->
+                <form action="#" method="POST" id="contactForm" class="mt-4">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h2>Visit Us</h2>
+                <p>You can also visit us at our office:</p>
+                <address>
+                    Vanessa Curdles Care Foundation<br>
+                    123 Foundation Street,<br>
+                    Cityville, State, ZIP Code<br>
+                    Country
+                </address>
+                <p>Email: <a href="mailto:info@example.com">info@example.com</a><br>
+                Phone: +123 456 7890</p>
+
+                <!-- Google Maps Embed (Replace with your own Google Maps iframe) -->
+                <div class="embed-responsive embed-responsive-16by9 mt-4">
+                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.17278571417!2d-74.11808695118983!3d40.70582519288585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sua!4v1623686813817!5m2!1sen!2sua" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

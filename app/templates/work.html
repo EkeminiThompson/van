@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block title %}Our Work - Vanessa Curdles Care Foundation{% endblock %}
+
+{% block content %}
+<section id="page-header">
+    <div class="container text-center">
+        <h1>Our Work</h1>
+        <p class="lead">Explore how we are making a difference.</p>
+    </div>
+</section>
+
+<section id="programs" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="{{ url_for('static', filename='images/program1.jpg') }}" alt="Program Image">
+                    <div class="card-body">
+                        <h3 class="card-title">Advocacy</h3>
+                        <p class="card-text">Empowering communities through advocacy and education.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="{{ url_for('static', filename='images/program2.jpg') }}" alt="Program Image">
+                    <div class="card-body">
+                        <h3 class="card-title">Agriculture Development</h3>
+                        <p class="card-text">Promoting sustainable agriculture practices.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="{{ url_for('static', filename='images/program3.jpg') }}" alt="Program Image">
+                    <div class="card-body">
+                        <h3 class="card-title">Capacity Building</h3>
+                        <p class="card-text">Strengthening the skills and abilities of individuals.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="{{ url_for('static', filename='images/program4.jpg') }}" alt="Program Image">
+                    <div class="card-body">
+                        <h3 class="card-title">Care</h3>
+                        <p class="card-text">Providing essential care and support.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="{{ url_for('static', filename='images/program5.jpg') }}" alt="Program Image">
+                    <div class="card-body">
+                        <h3 class="card-title">Career Development</h3>
+                        <p class="card-text">Helping individuals achieve their career goals.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="{{ url_for('static', filename='images/program6.jpg') }}" alt="Program Image">
+                    <div class="card-body">
+                        <h3 class="card-title">Charity</h3>
+                        <p class="card-text">Supporting those in need through various charitable activities.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="{{ url_for('static', filename='images/program7.jpg') }}" alt="Program Image">
+                    <div class="card-body">
+                        <h3 class="card-title">Children Issues</h3>
+                        <p class="card-text">Addressing the needs and rights of children.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
