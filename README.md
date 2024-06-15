@@ -112,7 +112,7 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ## Contact
 
-For inquiries and support, please contact us at [your-email@example.com](mailto:your-email@example.com).
+For inquiries and support, please contact us at [ekemini.thompson@outlook.com](mailto:ekemini.thompson@outlook.com).
 ```
 
 ### Notes:
